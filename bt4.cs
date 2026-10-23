@@ -14,7 +14,6 @@ class Program
     {
         List<Product> products = new List<Product>();
 
-        // Nhap 3 san pham
         for (int i = 0; i < 3; i++)
         {
             Console.Write($"Ten san pham {i + 1}: ");
@@ -32,7 +31,6 @@ class Program
             products.Add(p);
         }
 
-        // In danh sach
         Console.WriteLine("\nDanh sach san pham:");
 
         foreach (Product p in products)
